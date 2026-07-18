@@ -1,0 +1,14 @@
+* text=auto
+
+*.md   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Signatures, manifest and timestamp are byte artefacts: git must never rewrite them.
+# A CRLF-normalised .sig or SHA256SUMS would break verification on checkout.
+*.sig  -text
+*.ots  -text
+*.pdf  -text
+SHA256SUMS -text

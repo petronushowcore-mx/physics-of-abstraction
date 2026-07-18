@@ -1,0 +1,84 @@
+{
+  "catalogue": {
+    "alphabet_size": 8,
+    "history_counts": {
+      "1": 8,
+      "2": 34,
+      "3": 140
+    },
+    "max_horizon": 3,
+    "mixed_identity_fibres": 13,
+    "mixed_recovery_fibres": 13,
+    "total_histories": 182,
+    "trace_fibres": 16
+  },
+  "check_count": 29,
+  "checks": [
+    "ALPHABET_UNIQUE",
+    "TYPED_HISTORY_COUNTS",
+    "STRICT_TIME_LIFT",
+    "EXHAUSTIVE_NONVACUOUS",
+    "GENERATOR_KERNEL_COMPLETE",
+    "BLIND_GENERATOR_KERNEL_STRICT",
+    "BLIND_FALSE_NEUTRAL",
+    "TARGET_FIBRE_TRACE",
+    "TARGET_FIBRE_WITNESS",
+    "TARGET_BINDING_BITS",
+    "TARGET_VERDICT_BITS",
+    "AUDIT_VERDICT_FACTORS",
+    "AUDIT_RECORD_SEPARATES",
+    "PQ_BINDING_BITS",
+    "PQ_VERDICT_ZERO",
+    "PQ_LINEAGE_HIDDEN_FROM_SNAPSHOT",
+    "VERDICT_LOG_NOT_LINEAGE",
+    "LINEAGE_LOG_FACTORS",
+    "SINGLETON_ZERO_BINDING_BAD",
+    "TERMINAL_CANCELLATION",
+    "RECOVERY_NOT_SNAPSHOT",
+    "FIBRE_TRICHOTOMY",
+    "PROP_11_1",
+    "FINITE_DRIFT",
+    "AFFINE_GRID",
+    "SEPARATED_NAVIGATION",
+    "FINITE_DECIMAL",
+    "EXHAUSTIVE_SNAPSHOT_INSUFFICIENT",
+    "EXHAUSTIVE_AUDIT_BOUNDARY"
+  ],
+  "fibre_classifier": {
+    "all_bad": "reject",
+    "all_good": "admit",
+    "mixed": "insufficient observation"
+  },
+  "grounding": {
+    "candidate_wide_subcategories": 2,
+    "distinguishing_arrow": "a"
+  },
+  "instrument": {
+    "blind_false_neutral_seam": "b1",
+    "blind_generator_kernel_strictly_contains_admission": true,
+    "generator_kernel_equals_generator_admission": true
+  },
+  "pq_fibre": {
+    "lineage_labels": [
+      "p",
+      "q"
+    ],
+    "membership_log_factors_lineage": false,
+    "phase_binding_bits": 1.0,
+    "seam_id_log_factors_lineage": true,
+    "verdict_ambiguity_bits": 0.0
+  },
+  "schema": "seam-audit-certificate-v1",
+  "target_fibre": {
+    "audit_membership_factors_identity": true,
+    "phase_binding_bits": 1.0,
+    "snapshot_factors_identity": false,
+    "snapshot_factors_terminal_recovery": false,
+    "trace": [
+      "A",
+      "B",
+      "A"
+    ],
+    "verdict_ambiguity_bits": 1.0
+  }
+}
