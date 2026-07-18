@@ -5,6 +5,7 @@
 *.json text eol=lf
 .gitattributes text eol=lf
 .gitignore text eol=lf
+LICENSE text eol=lf
 
 # Signatures, manifest and timestamp are byte artefacts: git must never rewrite them.
 # A CRLF-normalised .sig or SHA256SUMS would break verification on checkout.
